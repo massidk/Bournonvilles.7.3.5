@@ -1,0 +1,14 @@
+
+
+/**umb_name:Header*/
+.h1{font-size:300%}
+@font-face {
+    font-family: 'RosewoodStd-Regular';
+    src: url('../fonts/RosewoodStd-Regular.otf') format('opentype');
+}}}
+
+/**umb_name:Article-Header*/
+.h2{font-size:200%}
+
+/**umb_name:RedText*/
+.RedText{color:red}
