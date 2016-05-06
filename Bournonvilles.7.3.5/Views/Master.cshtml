@@ -15,13 +15,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="~/Scripts/navBar.js"></script>
-
+    
     <!-- Bootstrap -->
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
+    
     <!-- Custom -->
     <link href="~/css/customCss.css" rel="stylesheet"/>
 
-
+    <!-- Formstone wallpaper -->
+    <link href="~/css/jquery.fs.wallpaper.css" rel="stylesheet" />
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -36,7 +38,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-fixed-top cbp-af-header" role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -46,7 +48,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Brand</a>
+                <a href="#">@*<img src="~/media/logoTransparant_black_sm.png"/>*@</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -92,7 +94,7 @@
                     </li>
                     <li><a href="#">Kontakt</a></li>
                 </ul>
-            <!-- navbar right -->
+                <!-- navbar right -->
                 <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Galleri<span class="caret"></span></a>
@@ -125,7 +127,12 @@
         </div><!-- /.container-fluid -->
     </nav>
 </header>
+
 @RenderBody()
 <footer>@CurrentPage.footerText</footer>
+    <!-- animated header -->
+    <script src="~/Scripts/classie.js"></script>
+<script src="~/Scripts/cbpAnimatedHeader.js"></script>
+
 </body>
 </html>
