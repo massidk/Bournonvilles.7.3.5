@@ -37,46 +37,50 @@
 
 </head>
 <body>
-<header>
-    <nav class="navbar navbar-fixed-top cbp-af-header" role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#">@*<img src="~/media/logoTransparant_black_sm.png"/>*@</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li><a href="~/">Home</a></li>
-                    <li class="dropdown">
-                    <a role="button" data-toggle="dropdown" data-target="#" href="#">
-                        Saloon<span class="caret"></span>
-                    </a>
-                    <!-- multi level dropdown -->
-                    <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
-                        <li><a href="~/cowboy-grill-saloon/">Cowboy Grill & Saloon</a></li>
-                        <li><a href="~/menu-kort/">Menu Kort</a></li>
-                        <li><a href="~/bestil-bord/">Bestil Bord</a></li>
-                        <li><a href="~/information/">Information</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-submenu">
-                        <a tabindex="-1" href="#">Cowboy Fest</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="~/cowboy-fest/">Cowboy Fest</a></li>
-                            <li class="divider"></li>
-                            <li><a href="~/cowboy-fest/the-renegades/">The Renegades</a></li>
-                            <li><a href="~/cowboy-fest/the-buffalos/">The Buffalos</a></li>
-                            <li><a href="~/cowboy-fest/the-cowboys/">The Cowboys</a></li>
-                            <li><a href="~/cowboy-fest/the-marshalls/">The Marshalls</a></li>
-                        </ul>
-                        <li class="dropdown-submenu">
-                            <a href="#">Ud Af Huset</a>
+    <header>
+        <nav class="navbar navbar-fixed-top cbp-af-header navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#">@*<img src="~/media/logoTransparant_black_sm.png"/>*@</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li><a href="~/">Home</a></li>
+                        <li class="dropdown">
+                            <a role="button" data-toggle="dropdown" data-target="#" href="#">
+                                Cowboy Grill & Saloon<span class="caret"></span>
+                            </a>
+                            <!-- dropdown -->
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu">
+                                <li><a href="~/cowboy-grill-saloon/">Cowboy Grill & Saloon</a></li>
+                                <li><a href="~/menu-kort/">Menu Kort</a></li>
+                                <li><a href="~/bestil-bord/">Bestil Bord</a></li>
+                                <li><a href="~/information/">Information</a></li>
+                                <li class="divider"></li>
+                            </ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Cowboy Fest<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/cowboy-fest/">Cowboy Fest</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/cowboy-fest/the-renegades/">The Renegades</a></li>
+                                <li><a href="~/cowboy-fest/the-buffalos/">The Buffalos</a></li>
+                                <li><a href="~/cowboy-fest/the-cowboys/">The Cowboys</a></li>
+                                <li><a href="~/cowboy-fest/the-marshalls/">The Marshalls</a></li>
+                            </ul>
+                    </ul>
+                    <!-- navbar right -->
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Ud Af Huset<span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li><a href="~/ud-af-huset/">Ud af Huset</a></li>
                                 <li class="divider"></li>
@@ -86,66 +90,88 @@
                                 <li><a href="~/ud-af-huset/cowboy-land/">Cowboy Land</a></li>
                             </ul>
                         </li>
-                    </ul>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Alt til Festen<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="~/alt-til-festen/">Alt til Festen</a></li>
-                            <li class="divider"></li>
-                            <li><a href="~/alt-til-festen/dekoration-stemning/">Dekoration & Stemning</a></li>
-                            <li><a href="~/alt-til-festen/aktiviteter-konkurencer/">Aktiviteter & Konkurencer</a></li>
-                            <li><a href="~/alt-til-festen/show-underholdning/">Show & Underholdning</a></li>
-                            <li><a href="~/alt-til-festen/buffe-bar/">Buffe & Bar</a></li>
-                            <li><a href="~/alt-til-festen/kostumer-diverse/">Kostumer & Diverse</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Kontakt</a></li>
-                </ul>
-                <!-- navbar right -->
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Galleri<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="~/galleri/">Galleri</a></li>
-                            <li class="divider"></li>
-                            <li><a href="~/galleri/cowboy-fest/">Cowboy Fest</a></li>
-                            <li><a href="~/galleri/show-events/">Show & Events</a></li>
-                            <li><a href="~/galleri/old-west-popcorn/">Old West Popcorn</a></li>
-                            <li><a href="~/galleri/saloon-2013/">Saloon 2013</a></li>
-                            <li><a href="~/galleri/diverse/">Diverse</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">News & Events<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="~/news-events/">News & Events</a></li>
-                            <li class="divider"></li>
-                            <li><a href="~/news-events/nyhedsbrev/">Nyhedsbrev</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Om Bournonvilles<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="~/om-bournonvilles/">Om Bournonvilles</a></li>
-                            <li class="divider"></li>
-                            <li><a href="~/om-bournonvilles/ledige-job/">Ledige Job</a></li>
-                            <li><a href="~/om-bournonvilles/forretnings-betingelser/">Forretnings Betingelser</a></li>
-                            <li><a href="~/om-bournonvilles/samarbejds-partnere/">Samarbejds Partnere</a></li>
-                            <li><a href="~/om-bournonvilles/referencer/">Referencer</a></li>
-                            <li><a href="~/om-bournonvilles/links/">Links</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-</header>
 
-@RenderBody()
-<footer>@CurrentPage.footerText</footer>
-    <!-- animated header -->
-    <script src="~/Scripts/classie.js"></script>
-<script src="~/Scripts/cbpAnimatedHeader.js"></script>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Alt til Festen<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/alt-til-festen/">Alt til Festen</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/alt-til-festen/dekoration-stemning/">Dekoration & Stemning</a></li>
+                                <li><a href="~/alt-til-festen/aktiviteter-konkurencer/">Aktiviteter & Konkurencer</a></li>
+                                <li><a href="~/alt-til-festen/show-underholdning/">Show & Underholdning</a></li>
+                                <li><a href="~/alt-til-festen/buffe-bar/">Buffe & Bar</a></li>
+                                <li><a href="~/alt-til-festen/kostumer-diverse/">Kostumer & Diverse</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Kontakt</a></li>
+
+
+
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    @RenderBody()
+    <footer>
+        @CurrentPage.footerText
+        <nav class="navbar-inverse navbar-footer" role="navigation">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-footer">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#">@*<img src="~/media/logoTransparant_black_sm.png"/>*@</a>
+                </div>
+                <div class="dropup collapse navbar-collapse navbar-inverse" id="bs-example-navbar-collapse-2">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                News & Events
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><a href="~/news-events/">News & Events</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/news-events/nyhedsbrev/">Nyhedsbrev</a></li>
+                            </ul>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Galleri<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/galleri/">Galleri</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/galleri/cowboy-fest/">Cowboy Fest</a></li>
+                                <li><a href="~/galleri/show-events/">Show & Events</a></li>
+                                <li><a href="~/galleri/old-west-popcorn/">Old West Popcorn</a></li>
+                                <li><a href="~/galleri/saloon-2013/">Saloon 2013</a></li>
+                                <li><a href="~/galleri/diverse/">Diverse</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="False">Om Bournonvilles<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="~/om-bournonvilles/">Om Bournonvilles</a></li>
+                                <li class="divider"></li>
+                                <li><a href="~/om-bournonvilles/ledige-job/">Ledige Job</a></li>
+                                <li><a href="~/om-bournonvilles/forretnings-betingelser/">Forretnings Betingelser</a></li>
+                                <li><a href="~/om-bournonvilles/samarbejds-partnere/">Samarbejds Partnere</a></li>
+                                <li><a href="~/om-bournonvilles/referencer/">Referencer</a></li>
+                                <li><a href="~/om-bournonvilles/links/">Links</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+</footer>
+        <!-- animated header -->
+        <script src="~/Scripts/classie.js"></script>
+        <script src="~/Scripts/cbpAnimatedHeader.js"></script>
 
 </body>
 </html>

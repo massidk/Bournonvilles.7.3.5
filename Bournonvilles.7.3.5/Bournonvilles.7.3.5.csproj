@@ -301,6 +301,8 @@
     <Content Include="media\06.jpg" />
     <Content Include="media\2.jpg" />
     <Content Include="media\texture.jpg" />
+    <Content Include="media\webBaggrund.png" />
+    <Content Include="media\webBaggrund_stretch.png" />
     <Content Include="media\wood.jpg" />
     <Content Include="media\favicon.ico" />
     <Content Include="packages.config" />
