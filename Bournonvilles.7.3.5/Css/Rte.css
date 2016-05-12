@@ -25,13 +25,47 @@ font-size: 1rem;
 
 
 /**umb_name:Header*/
-#Header{}
+#Header{
+    color: #3f0f0f;
+    font-size: 48px;
+    font-family: 'RosewoodStd-Regular';
+}
+@font-face {
+    font-family: 'RosewoodStd-Regular';
+    src: url('../fonts/RosewoodStd-Regular.otf') format('opentype');
+}
+/**umb_name:Header1*/
+#Header1{
+    color: #3f0f0f;
+    font-size: 42px;
+    font-family: 'RosewoodStd-Regular';
+}
+@font-face {
+    font-family: 'RosewoodStd-Regular';
+    src: url('../fonts/RosewoodStd-Regular.otf') format('opentype');
+}
 
 /**umb_name:Header 2*/
-#Header2{}
+#Header2 {
+    font-size: 32px;
+    font-family: 'MesquiteStd';
+}
+@font-face {
+    font-family: 'MesquiteStd';
+    src: url('../fonts/MesquiteStd.otf') format('opentype');
+}
 
 /**umb_name:Header 3*/
-#Header3{}
+#Header3 {
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+#Header4 {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
 
 /**umb_name:Smooth*/
 #Smooth{}

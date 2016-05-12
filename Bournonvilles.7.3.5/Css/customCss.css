@@ -1,5 +1,5 @@
 ﻿body {
-    background-image: url('../media/webBaggrund.png');
+    background-image: url('../media/background_xwide.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding-top: 80px;
@@ -28,14 +28,19 @@
 .p {
     color: #220B0A;
 }
-.a {
-    color: #220B0A;
+a {
+    color: white;
 }
+
 html, body {
     width: 100%;
     height: 100%
 }
+.content {
+    padding-top: 80px;
+}
 #video-wallpaper {
+    background-image: url('../media/front_suzi_leo.jpg');
     display: block;
     position: relative;
     width: 100%;
@@ -45,38 +50,38 @@ html, body {
     max-width: 100% !important;
     background: no-repeat center center;
     background-attachment: scroll;
-    background-color: #220b0a;
+    /*background-color: #220b0a;*/
     /*background-size: cover;*/
 }
 /* NavBar */
 .navbar:before {
-    display:block;
+    display: block;
     width: 100%;
-    position:absolute;
+    position: absolute;
     background: #3F0F0F;
-    top:0;
-    z-index:-1;
+    top: 0;
+    z-index: -1;
     text-align: center;
 }
+
 .navbar:after {
-    content: url('../media/logoTransparant_white_sm.png');
-    padding-left: 5px;
-    padding-top: 5px;
-    display:block;
-    height: 75px;
+    content: url('../media/logoTransparant_white.png');
+    display: block;
+    height: 85px;
     position: absolute;
     background: #3F0F0F;
     top: 0;
     z-index: 1;
-/*Eclipse element*/
+    /*Eclipse element*/
     border-radius: 50%;
-    width: 175px;
-    height: 90px;
+    width: 200px;
+    height: 102px;
     background-color: #3F0F0F;
     margin: 0 auto;
     left: 0;
     right: 0;
 }
+
 .navbar {
     display: block;
     background-color: #3F0F0F;
@@ -88,43 +93,48 @@ html, body {
     -webkid-transition: all 0.5s;
     transition: all 0.5s;
 }
-.navbar li a:hover, .navbar-footer li a:hover {
+.navbar li a:hover {
     background-color: #a52a2a;
 }
-.navbar a,.navbar-footer a {
+.navbar a {
     color: white;
     font-family: 'ANDERSON THUNDERBIRDS ARE GO!';
     font-size: 38px;
 }
 .icon-bar {
-    background-color: #220B0A;
-    border-color: #220B0A;
+    background-color: #3F0F0F;
+    border-color: #3F0F0F;
 }
 .navbar-inverse {
     color: white;
     background-color: #3F0F0F;
 }
-/*.navbar img {
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.dropdown-menu {
+    font-size: 10px;
+}
+    /*.navbar img {
     position: absolute;
     margin: 0px auto;
 }
 header {
     position: relative;
 }*/
-/* NavBar dropdown*/
+    /* NavBar dropdown*/
 
-/* Navbar Animation */
+    /* Navbar Animation */
 .cbp-af-header-shrink {
     padding-top: 2px;
     padding-bottom: 2px;
     opacity: 0.9;
 }
-/*.fill-screen {
+    /*.fill-screen {
     background-size: cover;
     background-position: center;
 }*/
 footer {
-    
     display: block;
     background-color: #3F0F0F;
     padding-left: 0;
@@ -132,6 +142,16 @@ footer {
     padding-top: 0;
     padding: 30px 15px;
 }
-footer .p, .a, .h1, .h2, .h3 {
-    color: lightgrey;
+footer p{
+    color: grey;
+}
+/*hr.cont_footer {
+    background: url("../media/spacer1.png") top left repeat-x;
+    border: 0;
+    clear: both;
+    height: 5px;
+    width: 100%;
+}*/
+.footer-img {
+    padding: 35px;
 }

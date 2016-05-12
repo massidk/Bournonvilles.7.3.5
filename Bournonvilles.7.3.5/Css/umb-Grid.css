@@ -1,0 +1,39 @@
+﻿body {
+}
+
+.grid-section h1 {
+    color: #3f0f0f;
+    font-size: 48px;
+    font-family: 'RosewoodStd-Regular';
+}
+@font-face {
+    font-family: 'RosewoodStd-Regular';
+    src: url('../fonts/RosewoodStd-Regular.otf') format('opentype');
+}
+.grid-section h2 {
+    color: #3f0f0f;
+    font-size: 48px;
+    font-family: 'MesquiteStd';
+}
+@font-face {
+    font-family: 'MesquiteStd';
+    src: url('../fonts/MesquiteStd.otf') format('opentype');
+}
+.grid-section p, .grid-section td {
+    font-size: 24px;
+    font-family: sans-serif;
+}
+.grid-section img {
+    margin: auto;
+    
+    width: 90%;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.grid-section a {
+    color: darkred;
+}
+.red {
+    color: red;
+}
