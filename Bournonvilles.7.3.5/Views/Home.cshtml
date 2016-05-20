@@ -2,17 +2,16 @@
 @{
     Layout = "Master.cshtml";
 }
-<div id="video-wallpaper">
-    
-</div>
-@*<div class="container-fluid">
-    <div class="row">
-        <div class="img-responsive">
-            <div class="fill-screen" style="background-image: url('../media/front_suzi_leo.jpg');"></div>
+@*
+    <div id="video-wallpaper">
+    <div class="container-fluid">
+            <div class="row">
+                <div class="img-responsive">
+                    <div class="fill-screen" style="background-image: url('../media/front_suzi_leo.jpg');"></div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>*@
-
+        </div>*@
 @CurrentPage.GetGridHtml("homeGrid")
 
 <script src="~/Scripts/jquery.fs.wallpaper.min.js"></script>
@@ -22,16 +21,16 @@
         $(window).on("load resize", function() {
             $(".fill-screen").css("height", window.innerHeight);
         });
-        //$("#video-wallpaper").wallpaper({
-        //    source: {
-        //        poster: "../media/front_suzi_leo.jpg",
-        //        video: "//www.youtube.com/embed/UVIEA0-tvBs"
-        //        //,
-        //        //mp4: "path/to/video.mp4",
-        //        //ogg: "path/to/video.ogg",
-        //        //webm: "path/to/video.webm"
-        //    }
-        //});
+        $("#video-wallpaper").wallpaper({
+            source: {
+                poster: "../media/front_suzi_leo.jpg",
+                video: "//www.youtube.com/embed/UVIEA0-tvBs"
+                //,
+                //mp4: "path/to/video.mp4",
+                //ogg: "path/to/video.ogg",
+                //webm: "path/to/video.webm"
+            }
+        });
     });
 </script>
 

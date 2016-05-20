@@ -297,6 +297,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\font-awesome.min.css" />
     <Content Include="css\umb-Grid.css" />
     <Content Include="media\04.jpg" />
     <Content Include="media\06.jpg" />
@@ -305,8 +307,13 @@
     <Content Include="media\background_wide.jpg" />
     <Content Include="media\background_xwide.jpg" />
     <Content Include="media\booking.png" />
+    <Content Include="media\Carusel\enSjovAften.jpg" />
+    <Content Include="media\Carusel\front.jpg" />
+    <Content Include="media\Carusel\sankthans.jpg" />
+    <Content Include="media\Carusel\vind_sommerfest.jpg" />
     <Content Include="media\cowboyfest.png" />
     <Content Include="media\facebook.png" />
+    <Content Include="media\hand.png" />
     <Content Include="media\kontrol_raport.gif" />
     <Content Include="media\latestnews-events.png" />
     <Content Include="media\logoTransparant_white.png" />
@@ -346,6 +353,7 @@
     <Content Include="Config\applications.config" />
     <Content Include="Config\404handlers.config" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="Views\altHome.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
