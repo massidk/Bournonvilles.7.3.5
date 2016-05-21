@@ -40,7 +40,7 @@ html, body {
 .content {
     padding-top: 80px;
 }
-#video-wallpaper {
+/*#video-wallpaper {
     background-image: url('../media/front_suzi_leo.jpg');
     display: block;
     position: relative;
@@ -53,7 +53,7 @@ html, body {
     background-attachment: scroll;
     background-color: #220b0a;
     background-size: cover;
-}
+}*/
 /* NavBar */
 @media (max-width: 1199px) {
     .navbar-header {
@@ -152,13 +152,13 @@ html, body {
 .dropdown-menu {
     font-size: 10px;
 }
-    .navbar img {
+    /*.navbar img {
     position: absolute;
     margin: 0px auto;
 }
 header {
     position: relative;
-}
+}*/
     /* NavBar dropdown*/
 
     /* Navbar Animation */
@@ -167,10 +167,10 @@ header {
     padding-bottom: 2px;
     opacity: 0.9;
 }
-    .fill-screen {
+    /*.fill-screen {
     background-size: cover;
     background-position: center;
-}
+}*/
 /* bootstrap carusel */
 #carousel {
     margin-top: 20px;
@@ -186,9 +186,9 @@ header {
     background-color: #3f0f0f;
     max-width: 100%;
 }
-#bottom-banner a {
+/*#bottom-banner a {
     
-}
+}*/
 #home {
     padding-top: 40px;
 }
