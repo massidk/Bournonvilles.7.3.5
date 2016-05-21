@@ -319,6 +319,7 @@
     <Content Include="media\logoTransparant_white.png" />
     <Content Include="media\nav.jpg" />
     <Content Include="media\referencer.png" />
+    <Content Include="media\safe_image.php.png" />
     <Content Include="media\spacer1.png" />
     <Content Include="media\texture.jpg" />
     <Content Include="media\webBaggrund.png" />
